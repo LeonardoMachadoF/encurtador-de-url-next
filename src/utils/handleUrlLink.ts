@@ -1,0 +1,1 @@
+export const shortnerUrl = (code: string) => `${process.env.NEXT_PUBLIC_BASE_URL}/${code}`
