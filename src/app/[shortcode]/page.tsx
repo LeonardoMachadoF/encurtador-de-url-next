@@ -15,5 +15,6 @@ export default async function RedirectPage({ params }: any) {
         where: { id: url.id },
         data: { visits: { increment: 1 } }
     })
+    
     redirect(url.originalUrl);
 }
